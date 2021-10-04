@@ -1,4 +1,4 @@
-# School of learning german 
+# Sohan's Language School
 
 Website Link:
 
