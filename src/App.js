@@ -6,6 +6,7 @@ import Services from './Component/Services/Services';
 import AboutUs from './Component/AboutUs/AboutUs';
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
+import Contack from './Component/Contack/Contack';
 
 
 
@@ -17,7 +18,9 @@ function App() {
       <BrowserRouter>
       <Switch>
         <Route path="/services">
+          
           <Services></Services>
+          <footer></footer>
         </Route>
         <Route path="/about">
           <AboutUs></AboutUs>
@@ -27,8 +30,16 @@ function App() {
        </Route>
        <Route exact path="/">
          <Home></Home>
+     
        </Route>
-      <NotFound></NotFound>
+       <Route path="/contack">
+         <Contack></Contack>
+
+       </Route>
+       <Route>
+       <NotFound></NotFound>
+       </Route>
+      
       </Switch>
       </BrowserRouter>
     </div>

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 
 const Services = () => {
@@ -11,12 +13,18 @@ const Services = () => {
   },[])
   return (
     <div>
+      <Header></Header>
       <h3>our services</h3>
       {
         services.map(service=> <Service
         key={services.Id}
         services={services}></Service>)
+
+        
       }
+      <Footer></Footer>
+  
+      
     </div>
   );
 };
