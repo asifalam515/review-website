@@ -1,0 +1,52 @@
+[
+  {
+    "Id": 1,
+    "name": "German for kids",
+    "price": 1055,
+    "duration": "12 week",
+    "sit": 40,
+    "img": "https://images-for-school.netlify.app/student.jpg"
+  },
+  {
+    "Id": 2,
+    "name": "German form Home",
+    "price": 1755,
+    "duration": "13 week",
+    "sit": 45,
+    "img": "https://images-for-school.netlify.app/A1.jpg"
+  },
+  {
+    "Id": 3,
+    "name": "German Library ",
+    "price": 1355,
+    "duration": "16 week",
+    "sit": 44,
+    "img": "https://images-for-school.netlify.app/sa.jpg"
+  },
+  {
+    "Id": 4,
+    "name": "German for free",
+    "price": "Free",
+    "duration": "12 week",
+    "sit": 23,
+    "img": "https://images-for-school.netlify.app/gorib.jpg"
+  },
+  {
+    "Id": 5,
+    "name": "Pool services",
+    "price": 20,
+    "place": 30,
+    "img": "https://images-for-school.netlify.app/swim.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bus Services",
+    "price": "30 per month",
+    "img": "https://images-for-school.netlify.app/bus.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Excellent Environment",
+    "img": "https://images-for-school.netlify.app/environment.jpg"
+  }
+]
