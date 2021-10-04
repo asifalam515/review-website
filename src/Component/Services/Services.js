@@ -7,21 +7,21 @@ import Header from '../Header/Header';
 const Services = () => {
   const [services,setServices]=useState([]);
   useEffect(()=>{
-    fetch('./services.json')
+    fetch("./services.json")
     .then(res=>res.json())
-    .then(data=>console.log(data))
+    .then(data=>setServices(data))
   },[])
   return (
     <div>
       <Header></Header>
-      <h3>our services</h3>
-      {
-        services.map(service=> <Service
-        key={services.Id}
-        services={services}></Service>)
+      <h3>Our Service</h3>
+     
 
-        
-      }
+     {
+       services.map(service=><Service
+       key={service.Id}
+       service={service}></Service>)
+     }
       <Footer></Footer>
   
       
