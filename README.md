@@ -1,6 +1,6 @@
 # Sohan's Language School
 
-Website Link:https://competent-dijkstra-2df314.netlify.app/
+Website Link:https://language-school-sohans.netlify.app/
 
 ## Project Brief
 
